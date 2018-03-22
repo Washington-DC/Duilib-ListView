@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="800,450">
+	<VerticalLayout bkcolor="FFF3F3F3">
+		<ListView name="mylist" header="hidden" vscrollbar="true" bordercolor="#FFEE00EE" itemlinecolor="#FFD4E0E1">
+		</ListView>
+	</VerticalLayout>
+</Window>

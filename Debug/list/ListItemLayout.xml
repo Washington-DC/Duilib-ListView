@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,100">
+	<ListItem name="my_list_node" height="50">
+		<VerticalLayout>
+			<TabLayout name="tab">
+				<VerticalLayout name="normal" height="49">
+					<HorizontalLayout inset="5,5,5,5">
+						<Control bkimage="image/person1.png" width="40" height="40" />
+						<VerticalLayout >
+							<Text name="name" height="18" text="test" font="0" />
+							<Control height="5"/>
+							<Text name="content" height="18" text="lalalalala" font="1" />
+						</VerticalLayout>
+						<Button name="delete" width="40" height="40" />
+					</HorizontalLayout>
+					<Control height="1" bkcolor="#FFE6E7E8" />
+				</VerticalLayout>
+				<VerticalLayout name="hover" height="49">
+					<HorizontalLayout>
+						<HorizontalLayout inset="5,5,5,5" bkcolor="#FFFCF0C1">
+							<Control bkimage="image/person1.png" width="40" height="40" />
+							<VerticalLayout >
+								<Text name="name" height="18" text="test" font="0" />
+								<Control height="5"/>
+								<Text name="content" height="18" text="lalalalala" font="1" />
+							</VerticalLayout>
+						</HorizontalLayout>
+						<HorizontalLayout inset="5,5,5,5" width="50" bkcolor="#FFFAE198">
+							<Button name="delete" width="40" height="40" bkimage="image/delete1.png" />
+						</HorizontalLayout>
+					</HorizontalLayout>
+					<Control height="1" bkcolor="#FFE6E7E8" />
+				</VerticalLayout>
+				<VerticalLayout name="focus" height="80">
+					<HorizontalLayout height="80">
+						<HorizontalLayout inset="5,5,5,5" bkcolor="#FFFAE198">
+							<Control bkimage="image/person4.png" width="70" height="70" />
+							<VerticalLayout >
+								<Text name="name" height="18" text="test" font="0" />
+								<Control height="5"/>
+								<Text name="content" height="18" text="lalalalala" font="1" />
+								<HorizontalLayout inset="10,5,10,5" childpadding="10">
+									<Button name="like" width="20" height="20" normalimage="image/like1.png" hotimage="image/like2.png" pushedimage="image/like2.png" />
+									<Button name="gift" width="20" height="20" normalimage="image/gift1.png" hotimage="image/gift2.png" pushedimage="image/gift2.png" />
+									<Button name="flower" width="20" height="20" normalimage="image/flower1.png" hotimage="image/flower2.png" pushedimage="image/flower2.png" />
+									<Button name="collect" width="20" height="20" normalimage="image/collect1.png" hotimage="image/collect2.png" pushedimage="image/collect2.png" />
+								</HorizontalLayout>
+							</VerticalLayout>
+						</HorizontalLayout>
+					</HorizontalLayout>
+				</VerticalLayout>
+			</TabLayout>
+		</VerticalLayout>
+	</ListItem>
+</Window>
