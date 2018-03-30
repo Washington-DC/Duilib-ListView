@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 整体布局结构 -->
-<Window size="400,332" caption="0,0,0,32" sizebox="4,4,4,4">
+<Window size="400,352" caption="0,0,0,32" sizebox="4,4,4,4">
     <!-- <VerticalLayout bkcolor="FF3C4852"> -->
     <VerticalLayout bkcolor="FFFFFFFF">
         <HorizontalLayout height="32" bkcolor="FF3C4852">
@@ -14,8 +14,8 @@
             </HorizontalLayout>
         </HorizontalLayout>
         <HorizontalLayout bkcolor="FFD3D3D3">
-            <VerticalLayout bkcolor="FFE3E3E3" width="300">
-                </>
+            <VerticalLayout bkcolor="FFE3E3E3" width="320">
+								<TileLayout name="tile" itemsize="40,40"></TileLayout>
             </VerticalLayout>
         </HorizontalLayout>
     </VerticalLayout>
