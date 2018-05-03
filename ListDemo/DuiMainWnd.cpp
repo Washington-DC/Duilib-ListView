@@ -12,7 +12,6 @@ CDuiMainWnd::~CDuiMainWnd()
 }
 
 
-
 LPCTSTR CDuiMainWnd::GetWindowClassName() const
 {
 	return L"DuiMainWnd";
