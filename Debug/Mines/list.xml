@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<Window size="800,320" caption="0,0,0,20" roundcorner="3,3">  
+<Font shared="true" id="0" name="微软雅黑" size="14" italic="false" default="true"/>  
+<VerticalLayout bordersize="1" bordercolor="#FF303030" inset="1,1,1,1" bkcolor="#FFF8F9FB" inset="0,20,0,0">  
+    <List name="projectinfo_list" inset="1,1,1,1" bordersize="1,1,1,1" bordercolor="#FFd9dadb" bkcolor="#FFFCFDFF" itemlinecolor="#FFCCCED1" hscrollbar="true" vscrollbar="true">  
+        <ListHeader bordersize="0,0,0,3" bordercolor="#FFd9dadb" bkcolor="#FFE1E2E5">  
+            <ListHeaderItem width="190" text="项目名称" font="3"  dragable="true" sepwidth="1" sepcolor="#FF000000"/>  
+            <ListHeaderItem width="100" text="版本号" font="3"  dragable="true" sepwidth="1" sepcolor="#FF000000"/>  
+            <ListHeaderItem width="160" text="更新日期" font="3" dragable="true" sepwidth="1" sepcolor="#FF000000"/>  
+            <ListHeaderItem width="170" text="更新者" font="3" dragable="true" sepwidth="1" sepcolor="#FF000000"/>  
+            <ListHeaderItem width="0" text="操作" font="3"/>  
+        </ListHeader>  
+        <ListHBoxElement height="30">  
+            <Label text="000000" align="center"/>  
+            <Label text="111111" align="center"/>  
+            <Label text="222222" align="center"/>  
+            <Label text="333333" align="center"/>  
+            <Label text="666666" align="center"/>  
+        </ListHBoxElement>  
+        <ListHBoxElement height="30">  
+            <Label text="000000" align="center"/>  
+            <Label text="111111" align="center"/>  
+            <Label text="222222" align="center"/>  
+            <Label text="333333" align="center"/>  
+            <Label text="666666" align="center"/>  
+        </ListHBoxElement>  
+    </List>  
+</VerticalLayout>  
+</Window>

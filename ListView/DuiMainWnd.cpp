@@ -36,7 +36,6 @@ void CDuiMainWnd::InitWindow()
 	m_PaintManager.AddFont(1, L"ËÎÌו", 18, false, false, false, true);
 
 	CListViewUI* pListView = static_cast<CListViewUI*>(m_PaintManager.FindControl(L"mylist"));
-
 	for (int i = 0; i < 20; i++)
 	{
 		CDialogBuilder builder;
