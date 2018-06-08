@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 整体布局结构 -->
+<Window size="800,600" caption="0,0,0,32" sizebox="4,4,4,4">
+    <!-- <VerticalLayout bkcolor="FF3C4852"> -->
+    <VerticalLayout bkcolor="FFFFFFFF">
+        <HorizontalLayout height="32" bkcolor="FF3C4852">
+            <VerticalLayout />
+            <HorizontalLayout width="138">
+                <!-- 右边三个控件所占的宽度-->
+                <Button name="minbtn" float="true" pos="0,0,46,31" normalimage=" file='SysBtn\min3.png' " hotimage=" file='SysBtn\min1.png' " pushedimage=" file='SysBtn\min1.png' "/>
+                <Button name="maxbtn" float="true" pos="47,0,92,31" normalimage=" file='SysBtn\max3.png' " hotimage=" file='SysBtn\max1.png' " pushedimage=" file='SysBtn\max1.png' " />
+                <Button name="restorebtn" visible="false" float="true" pos="47,0,92,31" normalimage=" file='SysBtn\rst3.png' " hotimage=" file='SysBtn\rst1.png' " pushedimage=" file='SysBtn\rst1.png' " />
+                <Button name="closebtn" float="true" pos="93,0,138,31" normalimage=" file='SysBtn\close3.png' " hotimage=" file='SysBtn\close1.png' " pushedimage=" file='SysBtn\close1.png' "/>
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout >
+            <VerticalLayout bkcolor="FFF3F3F3">
+                <List name="list" inset="1,1,1,1" bordersize="1,1,1,1" bordercolor="#FFd9dadb" bkcolor="#FFFCFDFF" itemlinecolor="#FFCCCED1"  hscrollbar="true" vscrollbar="true">
+                   
+                </List>
+            </VerticalLayout>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

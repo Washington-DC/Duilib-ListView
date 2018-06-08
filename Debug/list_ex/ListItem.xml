@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window >
+    <HorizontalLayout name="history_middle_top" bkcolor="FFFFFFFF" bkcolor2="FFD8F2FF" height="500" inset="4,4,4,4">
+        <HorizontalLayout bordersize="1" bordercolor="#FFABE3FA">
+            <VerticalLayout name="TopBar2" width="4" bkcolor="#FFFFFFFF" bkimage="file='top_bar_bg.png'"/>
+            <VerticalLayout>
+                <HorizontalLayout height="40" inset="4,4,0,0" bkimage="file='groups\info_bg.png' source='0,0,1,35'">
+                    <Label text="选择当前线路:" width="78" height="28" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                    <Combo height="30" name="history_cmb_lineinfo" bordersize="1" bordercolor="#FFABE3FA" textpadding="5,2,0,0" dropboxsize="0,150" />
+                </HorizontalLayout>
+                <HorizontalLayout>
+                    <VerticalLayout>
+                        <AlignImg name="history_uphistorypic" padding="5,5,5,5" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" focusbordercolor="#FF7DA2CE" />
+                    </VerticalLayout>
+                    <VerticalLayout width="252" bordersize="1" bordercolor="#FFABE3FA" bkimage="file='groups\info_bg.png' source='0,35,1,70'">
+                        <HorizontalLayout height="40" inset="4,4,0,0">
+                            <Label text="图像名" width="88" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" bkimage="file='groups\title_bg.png' source='0,16,1,32'"/>
+                            <Edit name="MiddlePuctureName_edit_ctl" enabled="false" bordersize="1" bordercolor="#FFABE3FA" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        </HorizontalLayout>
+                        <HorizontalLayout height="40" inset="4,4,0,0">
+                            <Label text="线路名" width="88" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" bkimage="file='groups\title_bg.png' source='0,16,1,32'"/>
+                            <Edit name="MiddleLine_edit_ctl" enabled="false" bordersize="1" bordercolor="#FFABE3FA" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        </HorizontalLayout>
+                        <HorizontalLayout height="40" inset="4,4,0,0">
+                            <Label text="检测时间" width="88" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" bkimage="file='groups\title_bg.png' source='0,16,1,32'"/>
+                            <Edit name="MiddleTime_edit_ctl" enabled="false" bordersize="1" bordercolor="#FFABE3FA" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        </HorizontalLayout>
+                        <HorizontalLayout height="40" inset="4,4,0,0">
+                            <Label text="图像路径" width="88" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" bkimage="file='groups\title_bg.png' source='0,16,1,32'"/>
+                            <Edit name="MiddlePicturePath_edit_ctl" enabled="false" bordersize="1" bordercolor="#FFABE3FA" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        </HorizontalLayout>
+                        <HorizontalLayout height="40" inset="4,4,0,0">
+                            <Label text="图像区域" width="88" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" bkimage="file='groups\title_bg.png' source='0,16,1,32'"/>
+                            <Edit name="MiddleArea_edit_ctl" enabled="false" bordersize="1" bordercolor="#FFABE3FA" height="30" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        </HorizontalLayout>
+                        <HorizontalLayout height="40" inset="4,4,0,0">
+                            <Label text="站区信息" width="88" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" bkimage="file='groups\title_bg.png' source='0,16,1,32'"/>
+                            <Edit name="MiddleStation_edit_ctl" enabled="false" bordersize="1" bordercolor="#FFABE3FA" height="31" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        </HorizontalLayout>
+                        <HorizontalLayout height="40" inset="4,4,4,4">
+                            <Label text="异常描述" width="88" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" bkimage="file='groups\title_bg.png' source='0,16,1,32'"/>
+                            <Edit name="MiddleBug_edit_ctl" enabled="false" bordersize="1" bordercolor="#FFABE3FA" height="31" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        </HorizontalLayout>
+                    </VerticalLayout>
+                </HorizontalLayout>
+            </VerticalLayout>
+        </HorizontalLayout>
+    </HorizontalLayout>
+</Window>

@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ListDemo", "ListDemo\ListDe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DuiSpy", "DuiSpy\DuiSpy.vcxproj", "{57466C36-1DF5-46DA-AA0C-10DC73A4B490}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ListDemoEx", "ListDemoEx\ListDemoEx.vcxproj", "{D9FF7B62-8BDE-4780-9DD2-43486C46E29B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{57466C36-1DF5-46DA-AA0C-10DC73A4B490}.Debug|Win32.Build.0 = Debug|Win32
 		{57466C36-1DF5-46DA-AA0C-10DC73A4B490}.Release|Win32.ActiveCfg = Release|Win32
 		{57466C36-1DF5-46DA-AA0C-10DC73A4B490}.Release|Win32.Build.0 = Release|Win32
+		{D9FF7B62-8BDE-4780-9DD2-43486C46E29B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D9FF7B62-8BDE-4780-9DD2-43486C46E29B}.Debug|Win32.Build.0 = Debug|Win32
+		{D9FF7B62-8BDE-4780-9DD2-43486C46E29B}.Release|Win32.ActiveCfg = Release|Win32
+		{D9FF7B62-8BDE-4780-9DD2-43486C46E29B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
