@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window >
+    <ListHBoxElement height="30">
+        <Label name="1" text="000000" align="center"/>
+        <Label name="2" text="111111" align="center"/>
+        <Label name="3" text="222222" align="center"/>
+        <Label name="4" text="333333" align="center"/>
+        <Label name="5" text="666666" align="center"/>
+    </ListHBoxElement>
+</Window>
