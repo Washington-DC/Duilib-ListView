@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="300,600" caption="0,0,0,32" sizebox="4,4,4,4">
+    <Font id="0" name="宋体" size="20" />
+    <VerticalLayout bkcolor="FFFFFFFF">
+        <HorizontalLayout height="32" bkcolor="FF3C4852">
+            <VerticalLayout />
+            <HorizontalLayout width="138">
+                <Button name="minbtn" float="true" pos="0,0,46,31" normalimage=" file='SysBtn\min3.png' " hotimage=" file='SysBtn\min1.png' " pushedimage=" file='SysBtn\min1.png' "/>
+                <Button name="maxbtn" float="true" pos="47,0,92,31" normalimage=" file='SysBtn\max3.png' " hotimage=" file='SysBtn\max1.png' " pushedimage=" file='SysBtn\max1.png' " />
+                <Button name="restorebtn" visible="false" float="true" pos="47,0,92,31" normalimage=" file='SysBtn\rst3.png' " hotimage=" file='SysBtn\rst1.png' " pushedimage=" file='SysBtn\rst1.png' " />
+                <Button name="closebtn" float="true" pos="93,0,138,31" normalimage=" file='SysBtn\close3.png' " hotimage=" file='SysBtn\close1.png' " pushedimage=" file='SysBtn\close1.png' "/>
+            </HorizontalLayout>
+        </HorizontalLayout>
+        <VerticalLayout bkcolor="FFF3F3F3">
+            <Edit name="edt_name" height="30" font="0" width="200" padding="50,50,50,0" bordersize="1" bordercolor="#FF000000" />
+            <Combo name="cbx_name" height="0" itemfont="0" maxheight="0" itemlinecolor="#FFDDDDDD" font="0" width="200" padding="50,0,50,0" bordersize="1" bordercolor="#FFFF0000" />
+
+            <VerticalLayout height="50" />
+
+            <EditEx name="edt_ex_name" height="30" font="0" width="200" padding="50,50,50,0" bordersize="1" bordercolor="#FF000000" />
+
+            <VerticalLayout />
+        </VerticalLayout>
+    </VerticalLayout>
+</Window>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="200,400">
+    <VerticalLayout   bkcolor="#FFCCCCCC" bordersize="1" bordercolor="#FFDDDDDD">
+    <Control bkcolor="#FFFF0000" height="1" />
+        <List name="listitems" float="true" itemlinecolor="#FF000000" pos="0,0,200,400" header="false">
+            <!-- <ListContainerElement name="edtContainer" height="40">
+                <Edit name="edt"  />
+            </ListContainerElement> -->
+        </List>
+    </VerticalLayout>
+</Window>

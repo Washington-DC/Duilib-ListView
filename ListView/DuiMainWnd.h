@@ -14,5 +14,6 @@ public:
 	virtual void InitWindow();
 
 	virtual void Notify(TNotifyUI& msg);
+
 };
 
